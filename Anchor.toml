@@ -1,0 +1,12 @@
+[programs.localnet]
+solana_message_app = "CP9b7um9UYM9gqu6ie9PtT9CAdThy5Tb8tj5cWK3NAmS"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/amaan/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
